@@ -1,4 +1,4 @@
-.create-blog-container {
+/* .create-blog-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -35,4 +35,135 @@
   .create-blog-form button:hover {
     background-color: #0056b3;
   }
-  
+   */
+
+   /* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Create Blog Container */
+.create-blog-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.create-blog-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Styling */
+.create-blog-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-blog-form div {
+  margin-bottom: 20px;
+}
+
+.create-blog-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
+
+.create-blog-form input,
+.create-blog-form textarea {
+  width: 100%;
+  padding: 12px;
+  padding-right: 2px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.create-blog-form input:focus,
+.create-blog-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+/* Button Styling */
+.create-blog-form button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.create-blog-form button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.create-blog-form button:active {
+  transform: translateY(0);
+}
+
+
+.create-blog-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f1f8e9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.create-blog-form div {
+  margin-bottom: 20px;
+}
+
+.create-blog-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #004d40;
+}
+
+.create-blog-form input,
+.create-blog-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #004d40;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.create-blog-form textarea {
+  resize: vertical;
+}
+
+.create-blog-form button {
+  padding: 12px 24px;
+  background-color: #00796b;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-blog-form button:hover {
+  background-color: #004d40;
+}
